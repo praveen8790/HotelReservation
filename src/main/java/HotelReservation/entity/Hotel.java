@@ -1,3 +1,5 @@
+package HotelReservation.entity;
+
 public class Hotel {
     private final String hotelname;
     private Integer rating;
@@ -27,7 +29,7 @@ public class Hotel {
     }
     @Override
     public String toString() {
-        return "Hotel{" +
+        return "HotelReservation.Entity.Hotel{" +
                 "hotelname='" + hotelname + '\'' +
                 ", rating=" + rating +
                 ", normalday=" + normalday +
